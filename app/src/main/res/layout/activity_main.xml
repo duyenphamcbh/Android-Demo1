@@ -18,18 +18,26 @@
             android:minHeight="48dp"
             android:text="Calculator"
             android:textSize="24sp" />
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:textSize="70px"
+            />
 
         <EditText
-            android:id="@+id/tvResult"
+            android:id="@+id/txt1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="right|center_vertical"
-            android:minHeight="400px"
+            android:minHeight="450px"
             android:text="0"
             android:textSize="200px" />
         <TextView
+            android:id="@+id/txt2"
             android:layout_width="match_parent"
-            android:layout_height="120px"
+            android:layout_height="200px"
+            android:textSize="150px"
             />
 
     </LinearLayout>
@@ -41,69 +49,36 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnC"
-            android:layout_width="260px"
-            android:layout_height="match_parent"
-            android:text="%"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnCE"
+            android:id="@+id/ce"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="CE"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnCC"
+            android:id="@+id/c"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="C"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnDelete"
+            android:id="@+id/bs"
             android:layout_width="260px"
             android:layout_height="match_parent"
-            android:text="X"
-            android:textSize="20sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200px"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnPso"
-            android:layout_width="260px"
-            android:layout_height="match_parent"
-            android:text="1/x"
+            android:text="BS"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnBphuong"
-            android:layout_width="260px"
-            android:layout_height="match_parent"
-            android:text="x^2"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnSqrt"
-            android:layout_width="260px"
-            android:layout_height="match_parent"
-            android:text="Sqrt()"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnDiv"
+            android:id="@+id/div"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="/"
             android:textSize="20sp" />
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200px"
@@ -111,28 +86,28 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn7"
+            android:id="@+id/seven"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="7"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn8"
+            android:id="@+id/eight"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="8"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn9"
+            android:id="@+id/nine"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="9"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnMul"
+            android:id="@+id/mul"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="*"
@@ -146,28 +121,28 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn4"
+            android:id="@+id/four"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="4"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn5"
+            android:id="@+id/five"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="5"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn6"
+            android:id="@+id/six"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="6"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnSub"
+            android:id="@+id/sub"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="-"
@@ -181,28 +156,28 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/one"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="1"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/two"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="2"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn3"
+            android:id="@+id/three"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="3"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnPlus"
+            android:id="@+id/add"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="+"
@@ -223,7 +198,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btn0"
+            android:id="@+id/zero"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="0"
@@ -237,7 +212,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/btnResult"
+            android:id="@+id/enter"
             android:layout_width="260px"
             android:layout_height="match_parent"
             android:text="="
